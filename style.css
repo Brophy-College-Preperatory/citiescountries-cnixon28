@@ -1,11 +1,11 @@
 html {
-  height: 100%;
-  width: 100%;
-  background-color: lightblue;
-}
+  height: 100%; 
+  width: 100%; /*.Sets the height and width to normal*/
+  background-color: lightblue;> /*sets background color*/
+
 
 h2 {
-  text-align: center;
+  text-align: center; /* Centers the text*/
 }
 
 /* #heading will hold styling code that only pertains to items on the HTML file with the ID heading */
@@ -13,7 +13,7 @@ nav {
   background-color: white;
   color: black;
   padding: 5px;
-  text-align: center;
+  text-align: center; /*Sets the background color the text color the padding and the text allign*/
 }
 
 ul {
@@ -21,7 +21,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: navy;
+  background-color: navy; /* sets the margin padding overflow and background color*/
 }
 
 li {
@@ -33,21 +33,21 @@ li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none; /*sets the display color text allign padding and the text decoration*/
 }
 
 /* .city1 will hold styling code that pertains to all items on the HTML file with the class city1, regardless of their tag */
 .city1 {
   background-color: tomato;
   color: white;
-  padding: 10px;
+  padding: 10px; /*for the city it sets a background color and a padding*/
 } 
 
 /* .city2 will hold styling code that pertains to all items on the HTML file with the class city2, regardless of their tag */
 .city2 {
   background-color: lightsalmon;
   color: white;
-  padding: 10px;
+  padding: 10px; /*sets a salmon color for the second city and a padding*/
 } 
 
 img {
@@ -56,15 +56,15 @@ img {
   margin-right: auto;
   width: 50%;
   height: auto;
-  border: solid 5px;
+  border: solid 5px; /* for the image it sets a display margins a width a height and a border size*/
 }
 
 .image1 {
-  border-color: white;
+  border-color: white; /*color for image 1*/
   padding: 5px;
 }
 
 .image2 {
   border-color: white;
-  padding: 20px;
+  padding: 20px; /*color for image 2*/
 }
